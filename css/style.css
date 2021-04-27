@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+  background-color:#e9ecef !important;
+}
+nav .navbar-brand{
+    font-size: 2rem;
+}
+.navbar-nav li a{
+    font-size: 1.2rem;
+}
+.carousel-inner img{
+    background-position: center;
+    height: 90vh;
+}
+.about_title h1{
+    text-align: center;
+    margin: 20px 0px;
+    font-weight: 400;
+}
+.about_title span{
+   color: #d35400;
+}
+.about_para{
+    font-size: 1.2rem;
+    margin: 10px 0px;
+}
+.about_image img{
+    width: 400px;
+    height: 200px;
+    margin: 0px 30px;
+
+}
+#para{
+    display: none;
+}
+.box{
+    height: 100%;
+    box-shadow: 0px 5px 10px #000;
+    margin: 15px 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+.box.title_box{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    padding:5px 0px;
+}
+.box .image-contain img{
+    width: 350px;
+    height: 200px;
+}
+.box .para_contaimer{
+   text-align: center;
+   padding: 10px 0px;
+}
+.fotter_link{
+    display: flex;   
+}
+.fotter_link li{
+    list-style: none;
+    align-items: center;
+}
+.fotter_link li a{
+    margin: 0px 10px;
+}
+@media screen and (max-width: 375px) {
+    .box{
+        margin: 18px;
+        height: 440px;
+    }
+    .box .image-contain img{
+        width: 270px;
+        height: 200px;
+    }
+    .carousel-inner img{
+        background-position: center;
+        height: 50vh;
+    }
+    .about_para{
+        font-size: 1rem;
+        margin: 10px 0px;
+    }
+    .about_image img{
+        width: 200px;
+        height: 200px;
+        margin: 0px 30px;
+    
+    }
+    .google_map iframe{
+       /* width: 400px;
+       height: 200px;
+       margin: 5px 50px; */
+    }
+    .fotter_link ,.social-icon, .copyright{
+        display: block;
+        text-align: center;
+    }
+    .fotter_link li{
+        list-style: none;
+        align-items: center;
+    }
+    .fotter_link li a{
+        margin: 0px 10px;
+    }
+  }
+@media screen and (max-width: 411px) {
+    .box{
+        margin: 18px;
+        height: 440px;
+    }
+    .box .image-contain img{
+        width: 270px;
+        height: 200px;
+    }
+    .carousel-inner img{
+        background-position: center;
+        height: 50vh;
+    }
+    .about_para{
+        font-size: 1rem;
+        margin: 10px 0px;
+    }
+    .about_image img{
+        width: 260px;
+        height: 200px;
+        margin: 0px 30px;
+    
+    }
+    .google_map iframe{
+       width: 370px;
+       height: 200px;
+       margin: 0px 20px;
+    }
+    .fotter_link ,.social-icon, .copyright{
+        display: block;
+        text-align: center;
+    }
+    .fotter_link li{
+        list-style: none;
+        align-items: center;
+    }
+    .fotter_link li a{
+        margin: 0px 10px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .box{
+        margin: 18px;
+        height: 440px;
+    }
+    .box .image-contain img{
+        width: 270px;
+        height: 200px;
+    }
+    .carousel-inner img{
+        background-position: center;
+        height: 50vh;
+    }
+    .about_para{
+        font-size: 1rem;
+        margin: 10px 0px;
+    }
+    .about_image img{
+        width: 200px;
+        height: 200px;
+        margin: 0px 30px;
+    
+    }
+    .google_map iframe{
+       width: 300px;
+       height: 200px;
+       margin: 5px 10px;
+    }
+    .fotter_link ,.social-icon, .copyright{
+        display: block;
+        text-align: center;
+    }
+    .fotter_link li{
+        list-style: none;
+        align-items: center;
+    }
+    .fotter_link li a{
+        margin: 0px 10px;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .box{
+        margin: 18px;
+        height: 440px;
+    }
+    .box .image-contain img{
+        width: 270px;
+        height: 200px;
+    }
+    .carousel-inner img{
+        background-position: center;
+        height: 50vh;
+    }
+    .about_para{
+        font-size: 1rem;
+        margin: 10px 0px;
+    }
+    .about_image img{
+        width: 200px;
+        height: 200px;
+        margin: 0px 30px;
+    
+    }
+    .google_map iframe{
+       width: 300px;
+       height: 200px;
+       margin: 5px 10px;
+    }
+    .fotter_link ,.social-icon, .copyright{
+        display: block;
+        text-align: center;
+    }
+    .fotter_link li{
+        list-style: none;
+        align-items: center;
+    }
+    .fotter_link li a{
+        margin: 0px 10px;
+    }
+  }
+
